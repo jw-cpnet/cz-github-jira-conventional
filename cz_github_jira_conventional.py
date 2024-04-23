@@ -83,6 +83,14 @@ class GithubJiraConventionalCz(BaseCommitizen):
                         "value": "feat",
                         "name": "feat: A new feature. Correlates with MINOR in SemVer",
                     },
+                    {
+                        "value": "config",
+                        "name": "config: Changes in configuration files or settings",
+                    },
+                    {
+                        "value": "chore",
+                        "name": "chore: Routine tasks or maintenance chores",
+                    },
                     {"value": "docs", "name": "docs: Documentation only changes"},
                     {
                         "value": "style",
