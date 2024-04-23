@@ -108,6 +108,10 @@ class GithubJiraConventionalCz(BaseCommitizen):
                         ),
                     },
                     {
+                        "value": "revert",
+                        "name": "revert: Reverts a previous commit",
+                    },
+                    {
                         "value": "perf",
                         "name": "perf: A code change that improves performance",
                     },
