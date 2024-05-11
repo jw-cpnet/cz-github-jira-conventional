@@ -84,6 +84,10 @@ class GithubJiraConventionalCz(BaseCommitizen):
                         "name": "feat: A new feature. Correlates with MINOR in SemVer",
                     },
                     {
+                        "value": "notebook",
+                        "name": "notebook: Changes to Jupyter notebooks (updates, fixes, or new notebooks)",
+                    },
+                    {
                         "value": "config",
                         "name": "config: Changes in configuration files or settings",
                     },
