@@ -262,7 +262,7 @@ class GithubJiraConventionalCz(BaseCommitizen):
 
     def schema_pattern(self) -> str:
         PATTERN = (
-            r"(build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert|bump|notebook)"
+            r"(build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert|bump|notebook|config)"
             r"(\(\S+\))?!?:(\s.*)"
         )
         return PATTERN
