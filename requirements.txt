@@ -4,3 +4,4 @@ pre-commit
 twine
 setuptools
 wheel
+commitizen<=3.21.2
